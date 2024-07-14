@@ -134,6 +134,7 @@ address {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    max-width: 100%;
 }
 
 .hero-title {
