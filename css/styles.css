@@ -79,6 +79,22 @@ font-weight: 500;
     color: #2e2f42;
     display: block;
     padding: 24px 0;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.navigation-link-studio {
+    color: #2f3682;
+
+}
+
+.navigation-link-studio::after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;background-color: #404bbf;
+    border-radius: 2px;
 }
 
 .navigation-list-link:hover,
@@ -101,6 +117,7 @@ address {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-item-link:hover,
