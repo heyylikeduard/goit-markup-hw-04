@@ -134,9 +134,6 @@ address {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-}
-
-.hero .container {
     max-width: 1440px;
 }
 
