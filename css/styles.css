@@ -37,6 +37,7 @@ img {
 
 .header {
     border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);
 }
 
 .header .container {
@@ -116,6 +117,7 @@ address {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    max-width: 1440px;
 
 }
 
@@ -146,6 +148,7 @@ address {
     border: none;
     border-radius: 4px;
     margin: 0 auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-btn:hover,
@@ -253,6 +256,7 @@ address {
 .team-social-item {
     width: 40px;
     height: 40px;
+    transition: background-color 2500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-social-link {
@@ -263,6 +267,11 @@ address {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.team-social-link:hover, 
+.team-social-link:focus {
+    background-color: #404bbf;
 }
 
 .team-social-icons {
